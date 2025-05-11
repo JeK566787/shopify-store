@@ -75,11 +75,17 @@
         "text": "",
         "alignment": "left"
       }
+    },
+    "accordion_tab_Xic6Fp": {
+      "type": "accordion-tab",
+      "name": "Accordion Tab",
+      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "theme_blocks_P6nhM4"
+    "theme_blocks_P6nhM4",
+    "accordion_tab_Xic6Fp"
   ]
 }
