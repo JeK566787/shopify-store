@@ -1,0 +1,29 @@
+{% content_for 'blocks' %}
+
+{% schema %}
+{
+  "name": "Theme blocks",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text_alignment",
+      "id": "alignment",
+      "label": "Alignment"
+    }
+  ],
+  "blocks": [{ "type": "@theme" }, { "type": "@app" }],
+  "presets": [
+    { "name": "Theme blocks" },
+    {
+      "name": "Content",
+      "settings": {
+        "text": "<p>Hello, world!</p>"
+      }
+    }
+  ]
+}
+{% endschema %}
