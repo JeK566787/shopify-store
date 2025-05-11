@@ -1,0 +1,23 @@
+{{ 'accordion-tab.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'accordion-tab.js'| asset_url }}" defer="defer"></script>
+<accordion-tab class="page-width">
+  <div class="accordion__header" data-header>
+    <h2>Click me</h2>
+  </div>
+  <div class="accordion__content" ata-content>
+    <p>dffskj sjdkdhjkfhd fjdhskjdsfh jhfdsdfdjks sdfhsdhfs</p>
+  </div>
+</accordion-tab>
+
+{% schema %}
+{
+  "name": "Accordion Tab",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Accordion Tab"
+    }
+  ]
+}
+{% endschema %}
