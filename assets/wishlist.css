@@ -1,0 +1,23 @@
+.wishlist-page {
+    padding: 2rem;
+}
+
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wishlist-item img {
+    width: 100px;
+    height: auto;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
